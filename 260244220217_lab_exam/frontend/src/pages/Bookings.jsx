@@ -1,0 +1,15 @@
+import React from 'react'
+import Navbar from '../components/Navbar'
+import { Outlet } from 'react-router'
+import AllBookings from '../components/AllBookings'
+function Bookings() {
+  return (
+    <div>
+       <Navbar/> 
+      
+       <Outlet/>
+    </div>
+  )
+}
+
+export default Bookings
